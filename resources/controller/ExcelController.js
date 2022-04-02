@@ -28,7 +28,7 @@ const getData = async ( req, res ) => {
                     cantBigger = ( cantBigger < objectValuesItem.length ) ? objectValuesItem.length :  cantBigger
                     return objectValuesItem
                 } )
-
+ 
                 /* HEADER */
                 const headers = []
                 for (let index = 0; index < cantBigger; index++) {
